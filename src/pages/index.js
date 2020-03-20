@@ -1,18 +1,16 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
+import Player from '../components/Player'
+
+import '../style/main.css'
 
 const Index = () => {
     return (
         <main>
-            <h1>Covid Cinema</h1>
-            <p>A Michael Panik Production</p>
-            <ReactPlayer
-                url='https://stream.covidcinema.michael-panik.com/hls/covidcinema.m3u8'
-                controls={true}
-                fileConfig={{
-                    forceHLS: true
-                }}
-            />
+            <header>
+                <h1><small>Covid</small><span>Cinema</span></h1>
+                <p>A Michael Panik Production</p>
+            </header>
+            <Player />
         </main>
     )
 }
