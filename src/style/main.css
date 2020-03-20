@@ -53,8 +53,8 @@ h1 small {
 
 .not-streaming {
     padding: 3.5rem;
-    width: 400px;
-    max-width: 95vw;
+    max-width: 400px;
+    width: 50vw;
     font-size: 1.5rem; 
     line-height: 1.75rem;
     background-image: linear-gradient(#222, #111);
