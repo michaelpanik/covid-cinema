@@ -1,5 +1,6 @@
 import React from 'react'
 import Player from '../components/Player'
+import Chat from '../components/Chat'
 
 import '../style/main.css'
 
@@ -11,6 +12,7 @@ const Index = () => {
                 <p>A Michael Panik Production</p>
             </header>
             <Player />
+            <Chat />
         </main>
     )
 }

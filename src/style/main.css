@@ -65,3 +65,24 @@ h1 small {
     text-shadow: 0 3px 10px black, 0 1px 0 #ddd;
     letter-spacing: 0.1em;
 }
+
+.chatroom {
+    position: fixed;
+    right: 1em;
+    bottom: -603px;
+    box-shadow: 0 5px 20px black;
+    transition: 0.6s all cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.chatroom__handle {
+    padding: 0.5em;
+    text-transform: uppercase;
+    background: goldenrod;
+    color: #222;
+    -webkit-text-stroke: 1px;
+    font-size: 1.5rem;
+}
+
+.chatroom.active {
+    bottom: 0;
+}
