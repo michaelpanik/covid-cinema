@@ -16,9 +16,9 @@ const Player = () => {
             fileConfig={{
                 forceHLS: true
             }}
-            onError={() => {
-                setStreaming(false)
-            }}
+            // onError={() => {
+            //     setStreaming(false)
+            // }}
         />
     )
 }
